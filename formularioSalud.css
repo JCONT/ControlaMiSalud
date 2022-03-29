@@ -1,0 +1,452 @@
+.nav {
+    background-color: #51A2FF;
+    height: 87px;
+    bottom: 618px;
+    width: 100%;
+    right: 0px;
+    position: fixed;
+    z-index: 1;
+}
+#form {
+    background: #fff;
+    box-shadow: 0 0 6px 0 rgb(255 255 255 / 80%);
+    border-radius: 45px;
+    width: 506px;
+    height: 873px;
+    position: absolute;
+    top: 100px;
+    right:969px;
+}
+.form {
+    height: 100%;
+    width: 100%;
+}
+h1{
+    text-align: center;
+    color: #6B6D6E;
+    font-size: 26px;
+}
+h2{
+    position: absolute;
+    bottom: 767px;
+    left: 156px;
+    font-size: 19px;
+    color: #969da1;
+}
+input{
+    position: absolute;
+    top: 247px;
+    left: 75px;
+    width: 334px;
+    height: 22px;
+    border-radius: 13px;
+    border: 2px solid #67D8F9;
+   }
+form .campo_Id {
+    position: absolute;
+    width: 272px;
+    top: 119px;
+    left: 78px;
+}
+.id{
+    position: absolute;
+    top: 151px;
+    left: 75px;
+}
+.campo_Nombre{
+    position: absolute;
+    top: 217px;
+    left: 78px;
+}
+.campo_Genero {
+    position: absolute;
+    width: 272px;
+    top: 308px;
+    left: 78px;
+}
+.genero{
+    position: absolute;
+    top: 336px;
+    left: 75px;
+    border: 2px solid #67D8F9;
+    border-radius: 17px;
+    width: 164px;
+    height: 28px;
+    color: #757575;
+}
+.campo_Edad {
+    position: absolute;
+    width: 272px;
+    top: 399px;
+    left: 78px;
+}
+.edad{
+    position: absolute;
+    top: 427px;
+    left: 75px;
+    width: 334px;
+    height: 22px;
+    border-radius: 13px;
+    border: 2px solid #67D8F9;
+}
+.campo_Correo {
+    position: absolute;
+    width: 272px;
+    top:489px;
+    left: 78px;
+}
+.email{
+    position: absolute;
+    top: 521px;
+    left: 75px;
+    width: 334px;
+    height: 22px;
+    border-radius: 13px;
+    border: 2px solid #67D8F9;
+}
+.campo_Peso {
+    position: absolute;
+    width: 272px;
+    top: 583px;
+    left: 78px;
+}
+.peso{
+    position: absolute;
+    top: 614px;
+    left: 75px;
+    width: 334px;
+    height: 22px;
+    border-radius: 13px;
+    border: 2px solid #67D8F9;
+}
+.campo_Condicion{
+    position: absolute;
+    top: 673px;
+    left: 78px;
+}
+.select{
+    position: absolute;
+    top: 704px;
+    left: 78px;
+    border: 2px solid #67D8F9;
+    border-radius: 17px;
+    width: 164px;
+    height: 28px;
+    color: #757575;
+}
+.campo_Otro {
+    position: absolute;
+    width: 272px;
+    top: 757px;
+    left: 78px;
+}
+.otro{
+    position: absolute;
+    top: 786px;
+    left: 75px;
+    width: 334px;
+    height: 22px;
+    border-radius: 13px;
+    border: 2px solid #67D8F9;
+}
+    .nav-link{
+        color: #fff;
+        color: #fff;
+        position: absolute;
+        top: 32px;
+        left: 30px;
+        font-size: x-large;
+    }
+    .brand_logo_container{
+        position: absolute;
+        height: 46px;
+        width: 48px;
+        top: 23px;
+        border-radius: 50%;
+        left: 1445px;
+        border: 2px solid #ffffff;
+    }
+    .imagen_flecha{
+        width: 75px;
+        height: 68px;
+        position: absolute;
+        left: 412px;
+        bottom: 11px;
+    }
+    .imagen{
+        width: 48px;
+        height: 46px;
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+    }
+ /* ----------------------------------------------------------------------------------------------------------------------------------------------------------- */
+ /* ----------------------------------------------------FORMULARIO #2------------------------------------------------------------------------------------------------------- */
+ #form2 {
+    background: #fff;
+    box-shadow: 0 0 6px 0 rgb(255 255 255 / 80%);
+    border-radius: 45px;
+    width: 506px;
+    height: 826px;
+    position: absolute;
+    top: 100px;
+    left: 595px;
+}
+.form2 {
+    background: #fff;
+    box-shadow: 0 0 6px 0 rgb(255 255 255 / 80%);
+    border-radius: 45px;
+    width: 506px;
+    height:724px;
+    position: absolute;
+    top: 100px;
+    left: 595px;
+}
+h1{
+    text-align: center;
+    color: #6B6D6E;
+    font-size: 26px;
+}
+
+h2{
+    position: absolute;
+    bottom: 767px;
+    left: 156px;
+    font-size: 19px;
+    color: #969da1;
+}
+
+input{
+    position: absolute;
+    top: 247px;
+    left: 75px;
+    width: 334px;
+    height: 22px;
+    border-radius: 13px;
+    border: 2px solid #67D8F9;
+   }
+.campo_Frecuencia {
+    position: absolute;
+    width: 272px;
+    top: 119px;
+    left: 78px;
+}
+.frecuencia{
+    position: absolute;
+    top: 151px;
+    left: 75px;
+}
+.campo_Vacunas{
+    position: absolute;
+    top: 217px;
+    left: 78px;
+}
+.campo_Tension {
+    position: absolute;
+    width: 272px;
+    top: 308px;
+    left: 78px;
+}
+.tension{
+    position: absolute;
+    top: 336px;
+    left: 75px;
+    width: 334px;
+    height: 22px;
+    border-radius: 13px;
+    border: 2px solid #67D8F9;
+}
+.campo_Saturacion {
+    position: absolute;
+    width: 272px;
+    top: 399px;
+    left: 78px;
+}
+.saturacion{
+    position: absolute;
+    top: 427px;
+    left: 75px;
+    width: 334px;
+    height: 22px;
+    border-radius: 13px;
+    border: 2px solid #67D8F9;
+}
+
+.campo_Fisica2 {
+    position: absolute;
+    width: 272px;
+    top: 489px;
+    left: 78px;
+}
+.fisica2{
+    position: absolute;
+    top: 521px;
+    left: 75px;
+    border: 2px solid #67D8F9;
+    border-radius: 17px;
+    width: 164px;
+    height: 28px;
+    color: #757575;
+}
+.campo_Distancia{
+    position: absolute;
+    top: 580px;
+    left: 78px;
+}
+.distancia{
+    position: absolute;
+    top: 652px;
+    left: 75px;
+    width: 334px;
+    height: 22px;
+    border-radius: 13px;
+    border: 2px solid #67D8F9;
+}
+p{
+  position: absolute;
+  top: 589px;
+  left: 78px;
+  color: #A7AAAB;
+}
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------- */
+ /* ----------------------------------------------------FORMULARIO #3------------------------------------------------------------------------------------------------------- */
+ #form3 {
+    background: #fff;
+    box-shadow: 0 0 6px 0 rgb(255 255 255 / 80%);
+    border-radius: 45px;
+    width: 506px;
+    height: 848px;
+    position: absolute;
+    top: 100px;
+    left: 1163px;
+}
+.form3 {
+    background: #fff;
+    box-shadow: 0 0 6px 0 rgb(255 255 255 / 80%);
+    border-radius: 45px;
+    width: 506px;
+    height: 848px;
+    position: absolute;
+    top: 100px;
+    left: 1163px;
+}
+h1{
+    text-align: center;
+    color: #6B6D6E;
+    font-size: 26px;
+}
+input{
+    position: absolute;
+    top: 247px;
+    left: 75px;
+    width: 334px;
+    height: 22px;
+    border-radius: 13px;
+    border: 2px solid #67D8F9;
+   }
+.campo_FechaControl {
+    position: absolute;
+    width: 272px;
+    top: 119px;
+    left: 78px;
+}
+.fechaControl{
+    position: absolute;
+    top: 151px;
+    left: 75px;
+}
+.campo_Cargo{
+    position: absolute;
+    top: 217px;
+    left: 78px;
+}
+.campo_NombreMedico {
+    position: absolute;
+    width: 272px;
+    top: 308px;
+    left: 78px;
+}
+.nombreM{
+    position: absolute;
+    top: 336px;
+    left: 75px;
+    width: 334px;
+    height: 22px;
+    border-radius: 13px;
+    border: 2px solid #67D8F9;
+}
+.campo_CausaT {
+    position: absolute;
+    width: 272px;
+    top: 399px;
+    left: 78px;
+}
+.causaT{
+    position: absolute;
+    top: 427px;
+    left: 75px;
+    width: 334px;
+    height: 22px;
+    border-radius: 13px;
+    border: 2px solid #67D8F9;
+}
+.campo_Tratamiento {
+    position: absolute;
+    width: 272px;
+    top:489px;
+    left: 78px;
+}
+.tratamiento{
+    position: absolute;
+    top: 521px;
+    left: 75px;
+    width: 334px;
+    height: 22px;
+    border-radius: 13px;
+    border: 2px solid #67D8F9;
+}
+.campo_Medicamento {
+    position: absolute;
+    width: 272px;
+    top: 583px;
+    left: 78px;
+}
+.medicamento{
+    position: absolute;
+    top: 614px;
+    left: 75px;
+    width: 334px;
+    height: 22px;
+    border-radius: 13px;
+    border: 2px solid #67D8F9;
+}
+.campo_Observaciones{
+    position: absolute;
+    top: 673px;
+    left: 78px;
+}
+.observaciones{
+    position: absolute;
+    top: 701px;
+    left: 75px;
+    width: 334px;
+    height: 68px;
+    border-radius: 13px;
+    border: 2px solid #67D8F9;
+}
+.botonForm{
+    font-family: 'roboto';
+    background: #67D8F9;
+    border: none;
+    width: 25%;
+    color: #fff;
+    height: 42px;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 30px;
+    position: absolute;
+    left: 368px;
+    top: 793px;
+
+
+}

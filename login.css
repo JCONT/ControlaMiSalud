@@ -1,0 +1,204 @@
+.body {
+    font-family: 'Roboto';
+    background-color: #E8FBFF;
+    height: 713px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.logo {
+	padding: 10px;
+	margin: 10px;
+	float: left;
+	height: 120px;
+}
+
+.boton1 {
+	color: #1949EE;
+	background: transparent;
+	border: 2px solid #1949EE;
+	border-radius: 6px;
+	float: right;
+	width: 140px;
+	height: 60px;
+	padding: 10px 0px;
+	position: relative;
+	top: 54px;
+	left: -170px;
+	font-size: 20px
+}
+
+.boton1:hover {
+	background-color: #1949EE;
+	color: white;
+}
+
+.boton2 {
+	color: white;
+	background: #0D1E59;
+	border: 2px solid #0D1E59;
+	border-radius: 6px;
+	float: right;
+	width: 140px;
+	height: 60px;
+	padding: 10px 0px;
+	position: relative;
+	top: 54px;
+	left: 126px;
+	font-size: 20px
+}
+
+.boton2:hover {
+	background-color: #1949EE;
+	color: white;
+}
+
+
+
+h1 {
+
+    padding-left: 4px;
+    top: 26px;
+    position: absolute;
+    color: #88A9B8;
+    font-family: revert;
+
+}
+
+form {
+    background: #fff;
+    padding: 40px 0px;
+    box-shadow: 0 0 6px 0 rgb(255 255 255 / 80%);
+    border-radius: 45px;
+    width: 508px;
+    height: 529px;
+    position: absolute;
+    right: 517px;
+    bottom: 80px;
+}
+
+.form {
+	height: 492px;
+	width: 922px;
+	margin: -10px 6px;
+}
+
+form .Campo_User {
+    position: absolute;
+    width: 272px;
+    top: 229px;
+    right: 168px;
+}
+
+.Campo_password {
+    position: absolute;
+    width: 272px;
+    top: 326px;
+    right: 168px;
+}
+
+input {
+	background: none;
+	color: #060974;
+	font-size: 18px;
+	padding: 10px 10px 10px 5px;
+	display: block;
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid var(--colorTextos);
+}
+
+input:focus {
+	outline: none;
+	color: #5e5d5d;
+}
+
+label {
+	color: var(--colorTextos);
+	font-size: 16px;
+	position: absolute;
+	left: 5px;
+	top: 10px;
+	transition: 0.5s ease all;
+	pointer-events: none;
+}
+
+input:focus ~ label,
+input:valid ~ label {
+	top: -14px;
+	font-size: 12px;
+	color: #2196f3;
+}
+
+.barra {
+	position: relative;
+    display: block;
+    width: 120%;
+}
+
+.barra::before {
+	content: "";
+	height: 2px;
+	width: 0%;
+	bottom: 0;
+	position: absolute;
+	background: #67D8F9;
+	transition: 0.3s ease width;
+	left: 0;
+}
+
+
+input:focus ~ .barra::before {
+	width: 100%;
+}
+
+.botonR {
+    font-family: 'roboto';
+    background: #67D8F9;
+    border: none;
+    width: 22%;
+    color: #fff;
+    height: 48px;
+    font-size: 22px;
+    cursor: pointer;
+    float: right;
+    border-radius: 30px;
+    position: absolute;
+    left: 349px;
+    top: 418px;
+}
+
+.brand_logo_container{
+    position: absolute;
+    height: 145px;
+    width: 147px;
+    top: 28px;
+    border-radius: 50%;
+    left: 177px;
+    border: 2px solid #DBDBE5;
+	
+}
+
+strong{
+    color: #6BC2FC;
+}
+
+p{
+    color: #A1A1A1;
+    position: absolute;
+    top: 486px;
+    left: 141px;
+}
+
+.imagen{
+	width: 110px;
+    position: absolute;
+    left: 23px;
+    top: 10px;
+}

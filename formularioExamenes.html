@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" style="background: #E8FBFF;">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="formularioExamenes.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4./css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <title>Formulario de Salud</title>
+    </head>
+
+<body>
+    <nav class="nav">
+        <a class="nav-link active" href="index.php">CONTROLA MI SALUD</a>
+        <div class="brand_logo_container">
+            <img class="imagen" src="imagenes/usuario.png">
+        </div>
+    </nav>
+    <div class="body">
+        <form id="form" action="guardar.php" method="POST">
+            <div class="form">
+                <br>
+                <h1>REGISTRAR EXAMENES <BR>MEDICOS</h1>
+              
+                <label class="campo_FechaEx">Fecha del Exámen</label>
+                <input type="date" class="fechaEx" id="fechaEx" name="fechaexamen">
+
+                <label class="campo_NombrE">Nombre del Exámen</label>
+                <input type="text" class="nombreE" id="nombreE" placeholder="Ingresa el nombre del exámen" name="nombreexamen">
+
+                <label class="campo_Adjunto">Adjuntar Archivo</label>
+                <input type="file" class="adjunto" id="adjunto"  placeholder="Selecciona un archivo" name="archivo">
+
+                <label class="campo_Observaciones2">Observaciones</label>
+                <textarea name="observaciones" class="observaciones2" id="observaciones2" placeholder="Observaciones..." rows="10" cols="50"></textarea>
+            </div>
+            <button type="submit" name="guardarr" class="botonFormE">Finalizar</button>
+        </form>
+    </div>
+</body>
+</html>

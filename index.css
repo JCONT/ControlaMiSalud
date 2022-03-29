@@ -1,0 +1,102 @@
+.nav {
+    background-color: #51A2FF;
+    height: 87px;
+    bottom: 618px;
+    width: 100%;
+    right: 0px;
+    position: fixed;
+    z-index: 3;
+}
+
+.titulo{
+    color: #fff;
+    color: #fff;
+    position: absolute;
+    top: 32px;
+    left: 30px;
+    font-size: x-large;
+}
+.brand_logo_container{
+    position: absolute;
+    height: 46px;
+    width: 48px;
+    top: 23px;
+    border-radius: 50%;
+    left: 1445px;
+    border: 2px solid #ffffff;
+}
+
+.imagen{
+    width: 44px;
+    height: 42px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+div#mydatatable_wrapper {
+    position: absolute;
+    top: 122px;
+    left: 256px;
+}
+
+.col-auto.col-md-3.col-xl-2.px-sm-2.px-0 {
+    position: fixed;
+    top: 79px;
+    width: 251px;
+    background-color: #8F9092;
+    z-index: 2;
+}
+
+.title_table{
+    background-color: #64F1BC;
+}
+
+tr{
+    color: white;
+}
+
+td{
+    color: rgb(10, 5, 5);
+}
+
+.registrar{
+    position: absolute;
+    top: 140px;
+    left: 26px;
+    font-size: 19px;
+}
+
+#registroFamilia{
+    position: absolute;
+    top: 198px;
+    left: 26px;
+    font-size: 19px;
+}
+
+#registroExamen{
+    position: absolute;
+    top: 261px;
+    left: 26px;
+    font-size: 19px;
+}
+a#dropdownUser1 {
+    position: absolute;
+    top: 571px;
+}
+
+div#mydatatable-container2 {
+    position: absolute;
+    top: 456px;
+    left: 256px;
+}
+
+.title_table2{
+    background-color: #64F1BC;
+}
+
+.titulo1{
+    position: absolute;
+    top: 101px;
+    left: 254px;
+}
